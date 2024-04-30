@@ -1,0 +1,272 @@
+
+
+.body
+{
+    background-image: url(../Images/background.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+
+}
+.body1
+{
+    background-image: url(../Images/background1.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+
+}
+.body2
+{
+    background-image: url(../Images/background2.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+
+}
+.body3
+{
+    background-image: url(../Images/background3.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+
+}
+#logo
+{
+    max-width: 5%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.color
+{
+    background-color: aliceblue;
+    border:2px solid black;
+    margin-top: 60px;
+    padding: 30px;
+    
+}
+.carousel-container {
+    margin-top: 1%;
+    margin-right: 30%;
+    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+
+.carousel-control-prev-icon {
+            background-color: red; 
+            border: 2px solid #000; 
+            border-radius: 50%; 
+            padding: 10px; 
+            
+        }
+.carousel-control-next-icon {
+
+    background-color: red; 
+    border: 2px solid #000; 
+    border-radius: 50%; 
+    padding: 10px; 
+}
+
+.carousel-item img {
+    max-width: 400px;
+    max-height: auto; 
+}
+
+.books
+{
+    background-color: aliceblue;
+}
+.lft-brdr
+{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.navbar-brand.center {
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: xxx-large;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.transparent-box {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.top-right {
+    top: 30%;
+    right: 20px;
+}
+
+.bottom-left {
+    bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 20px;
+}
+.no-dec {
+    text-decoration: none;
+}
+
+#image-1 {
+    width: 34rem;
+    height: 25em;
+    object-fit: cover;
+}
+
+#navbarDropdown::after {        /* Remove the arrow after button */
+    content: none;
+}
+
+.maintxt {
+    background-size: cover;
+    height: 14rem;
+}
+
+.hov-in:hover {
+    
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    opacity: 0.75 ; 
+    border: 2px solid #842029;
+    transition: .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.hov:hover {
+    
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    /* opacity: 0.75 ;  */
+    border: 2px solid #842029;
+    transition: .2s ease-in-out;
+    border-radius: 5px;
+}
+
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 17rem;
+    background-color: #555;
+    color: #fff;
+    font-size: smaller;
+    line-height: 1rem;
+    border-radius: 5px;
+    /* border: 2px solid rgb(11, 245, 11);  */
+    padding: 0.5rem 0.5rem 0 0.8rem ;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 200%;
+    margin-left: -5rem;
+    opacity: 0.9;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20.5%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+#mobilePopup {
+    visibility: hidden;
+    width: 14rem;
+    background-color: #555;
+    color: #fff;
+    font-size: smaller;
+    /* font-weight: bold; */
+    line-height: 1rem;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 0.5rem 0.5rem 0 0.8rem ;
+    position: absolute;
+    z-index: 1;
+    bottom: 1.7rem;
+    left: 1.7rem;
+    margin-left: -5rem;
+    /* border: 2px solid rgb(11, 245, 11);  */
+    opacity: 0.85;
+}
+
+.mobPopup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#mobilePopup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 27%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+  /* Change Password Popup Bullet */
+
+.greenTick::before {
+    content: "\2713"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(11, 245, 11); 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+#userPassRepeat::after {
+    content: "\2713"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(11, 245, 11); 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+.checkSymbol {
+    color: rgb(8, 150, 8); 
+    font-weight: 900;
+    font-size: large;
+    visibility: hidden;
+}
+
+#viewPass {
+    float: right;
+    margin-right: 3%;
+    margin-top: -25px;    
+    position: relative;
+}
+
+#verified {
+    float: right;
+    margin-right: 3%;
+    margin-top: -32px;    
+    position: relative;
+}
+
+
